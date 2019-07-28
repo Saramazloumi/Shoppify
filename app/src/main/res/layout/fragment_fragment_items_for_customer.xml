@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5EC5F3"
+    tools:context=".fragment.FragmentItemsForCustomer">
+
+    <EditText
+        android:id="@+id/editTextSearchCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Customer Email to get items" />
+
+    <Button
+        android:id="@+id/getItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get items" />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

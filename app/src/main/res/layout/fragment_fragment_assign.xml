@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#72CBF3"
+    tools:context=".fragment.FragmentAssign">
+
+    <EditText
+        android:id="@+id/editTextCustomerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Customer Email"/>
+
+    <EditText
+        android:id="@+id/editTextItemCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Product Code" />
+
+    <Button
+        android:id="@+id/assignBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assign" />
+</LinearLayout>
